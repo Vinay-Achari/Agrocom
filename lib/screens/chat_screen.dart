@@ -270,7 +270,7 @@ class MessageBubble extends StatelessWidget {
 
   void calc(units) {
     print(units);
-    if(units!="") {
+    if(units!="" && units!=null) {
       _firestore.collection('cart').add(
         {
           'veggie': text,
