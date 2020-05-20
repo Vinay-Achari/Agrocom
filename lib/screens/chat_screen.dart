@@ -414,7 +414,11 @@ class MessageBubble extends StatelessWidget {
                 SizedBox(height: 10.0),
                 Center(
                   child: Text(
-                    'Price = $price',
+                    'Price = ₹$price',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold
+                    ),
                   ),
                 ),
               ]),

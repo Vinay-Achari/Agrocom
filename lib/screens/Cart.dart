@@ -280,7 +280,12 @@ class MessageBubble extends StatelessWidget {
 
     Center(
     child: Text(
-    'Price = $price',
+    'Price = ₹$price',
+      style: TextStyle(
+        fontSize: 20.0,
+        fontWeight: FontWeight.bold
+
+      ),
     ),
     ),
 
@@ -345,7 +350,7 @@ print(userprice);
     height:70.0 ,
     child: Center(
     child: Text(
-    'Pay  $userprice for checkout',
+    'Pay ₹$userprice for checkout',
     style:TextStyle(
     fontWeight: FontWeight.bold,
     fontSize: 15.0,
