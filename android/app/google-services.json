@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "557637403508",
+    "firebase_url": "https://agrocom-5e594.firebaseio.com",
+    "project_id": "agrocom-5e594",
+    "storage_bucket": "agrocom-5e594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557637403508:android:d4480dd2acd7140c9ee221",
+        "android_client_info": {
+          "package_name": "co.Vinay.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557637403508-vabs9q8143m22m9p10h04j6cf3mc1nv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBICwEBaZj52WGdg-V5bIWVO9gNnCz6InE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557637403508-vabs9q8143m22m9p10h04j6cf3mc1nv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557637403508:android:b248b4ea382ea7ed9ee221",
+        "android_client_info": {
+          "package_name": "co.VinayAgrocom.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557637403508-vabs9q8143m22m9p10h04j6cf3mc1nv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBICwEBaZj52WGdg-V5bIWVO9gNnCz6InE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557637403508-vabs9q8143m22m9p10h04j6cf3mc1nv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

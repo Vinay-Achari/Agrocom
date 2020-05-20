@@ -16,20 +16,26 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Row(
-              children: <Widget>[
-                Container(
-                  child: Image.asset('images/logo.png'),
-                  height: 60.0,
+            Flexible(
+              child: Hero(
+                tag:'logo',
+                child: Container(
+                  child: Image.asset('images/2.png'),
+                  height: 150.0,
                 ),
-                Text(
-                  'Flash Chat',
-                  style: TextStyle(
-                    fontSize: 45.0,
-                    fontWeight: FontWeight.w900,
-                  ),
+              ),
+            ),
+            Center(
+              child: Text(
+
+                'Agrocom',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+
+                  fontSize: 60.0,
+                  fontWeight: FontWeight.w900,
                 ),
-              ],
+              ),
             ),
             SizedBox(
               height: 48.0,
@@ -38,11 +44,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               padding: EdgeInsets.symmetric(vertical: 16.0),
               child: Material(
                 elevation: 5.0,
-                color: Colors.lightBlueAccent,
+                color: Colors.lightGreenAccent,
                 borderRadius: BorderRadius.circular(30.0),
                 child: MaterialButton(
                   onPressed: () {
-                    //Go to login screen.
+                   Navigator.pushNamed(context,'/first'); //Go to login screen.
                   },
                   minWidth: 200.0,
                   height: 42.0,
@@ -55,12 +61,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Padding(
               padding: EdgeInsets.symmetric(vertical: 16.0),
               child: Material(
-                color: Colors.blueAccent,
+                color: Colors.green,
                 borderRadius: BorderRadius.circular(30.0),
                 elevation: 5.0,
                 child: MaterialButton(
                   onPressed: () {
-                    //Go to registration screen.
+                    Navigator.pushNamed(context,'/second');//Go to registration screen.
                   },
                   minWidth: 200.0,
                   height: 42.0,
@@ -73,6 +79,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           ],
         ),
       ),
+
     );
   }
 }
